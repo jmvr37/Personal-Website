@@ -29,7 +29,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build", 
+    "build": "npm run clean && craco build", 
     "test": "jest",
     "eject": "react-scripts eject"
   },
