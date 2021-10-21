@@ -1,13 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navigation from './components/Navigation';
+import Header from './components/Header';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
+import Profile from './components/Profile';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "tailwindcss/tailwind.css";
+import '../node_modules/font-awesome/css/font-awesome.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+  <Navigation />
+  <Header />
+  <Profile />
+  <Skills />
+  <Projects />
+  <Footer />
+
+  </>,
   document.getElementById('root')
 );
 
