@@ -29,8 +29,8 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
+    "build": "yarn build", 
+    "test": "jest",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -55,3 +55,4 @@
     "@fortawesome/fontawesome-free": "^5.15.4"
   }
 }
+
