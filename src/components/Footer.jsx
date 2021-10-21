@@ -38,25 +38,25 @@ return(
             
         </nav>
         <div class="flex justify-center mt-8 space-x-6">
-            <a href="https://www.instagram.com/jmvr37/" target="_blank" class="text-gray-400 hover:text-yellow-500">
+            <a href="https://www.instagram.com/jmvr37/" target="_blank" rel="noreferrer" class="text-gray-400 hover:text-yellow-500">
                 <span class="sr-only">Instagram</span>
                 <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                 <FontAwesomeIcon icon={['fab', 'instagram']} />
                 </svg>
             </a>
-            <a href="https://twitter.com/jmvr37" target="_blank" class="text-gray-400 hover:text-blue-400">
+            <a href="https://twitter.com/jmvr37" target="_blank" rel="noreferrer" class="text-gray-400 hover:text-blue-400">
                 <span class="sr-only">Twitter</span>
                 <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                 <FontAwesomeIcon icon={['fab', 'twitter']} />
                 </svg>
             </a>
-            <a href="https://github.com/jmvr37" target="_blank" class="text-gray-400 hover:text-gray-800">
+            <a href="https://github.com/jmvr37" target="_blank" rel="noreferrer" class="text-gray-400 hover:text-gray-800">
                 <span class="sr-only">GitHub</span>
                 <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                 <FontAwesomeIcon icon={['fab', 'github']} />
                 </svg>
             </a>
-            <a href="https://www.linkedin.com/in/jos%C3%A9-valenzuela-158499143" target="_blank" class="text-gray-400 hover:text-blue-500">
+            <a href="https://www.linkedin.com/in/jos%C3%A9-valenzuela-158499143" target="_blank" rel="noreferrer" class="text-gray-400 hover:text-blue-500">
                 <span class="sr-only">Linkedin</span>
                 <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                 <FontAwesomeIcon icon={['fab', 'linkedin']} />

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Card,Button } from 'react-bootstrap';
 import Larivo from '../assets/images/larivo.png';
 import Instanews from '../assets/images/instanews.jpeg';
 import Boomtown from '../assets/images/boomtown.png';
@@ -17,11 +16,11 @@ const Projects = () =>{
 <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out md:max-w-2xl">
   <div>
     <div>
-      <img class="h-48 w-full object-cover" src={Larivo}/>
+      <img alt="Larivo app" class="h-48 w-full object-cover" src={Larivo}/>
     </div>
     <div class="p-8">
       <div class="tracking-wide text-lg text-indigo-500 font-semibold">Larivo Mental Health App</div>
-      <a href="https://github.com/redacademy/larivo-WS2-2019" target="_blank" class="block mt-1 text-sm leading-tight font-medium text-black hover:underline">Source Code</a>
+      <a href="https://github.com/redacademy/larivo-WS2-2019" target="_blank" rel="noreferrer" class="block mt-1 text-sm leading-tight font-medium text-black hover:underline">Source Code</a>
       <p class="mt-2 text-gray-500 text-base subpixel-antialiased">An Agile team of three people worked with a real client based in Vancouver, developed an iOS application that allows the user to create an account and share stories about mental health, as well as get support from other users, you can follow users on the app, and search for stories by hashtag. The app's design was developed by RED Academy's team of three designers.</p>
     </div>
   </div>
@@ -29,7 +28,7 @@ const Projects = () =>{
 <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out md:max-w-2xl">
   <div>
     <div>
-      <img class="h-48 w-full object-cover" src={Boomtown}/>
+      <img alt="Boomtown app" class="h-48 w-full object-cover" src={Boomtown}/>
     </div>
     <div class="p-8">
       <div class="tracking-wide text-lg text-indigo-500 font-semibold">Boomtown</div>
@@ -41,7 +40,7 @@ const Projects = () =>{
 <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out md:max-w-2xl">
   <div>
     <div>
-      <img class="h-48 w-full object-cover" src={Instanews}/>
+      <img alt="Instanews app" class="h-48 w-full object-cover" src={Instanews}/>
     </div>
     <div class="p-8">
       <div class="tracking-wide text-lg text-indigo-500 font-semibold">New York Times Api</div>
@@ -53,7 +52,7 @@ const Projects = () =>{
 <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out md:max-w-2xl">
   <div>
     <div>
-      <img class="h-48 w-full object-cover" src={R20}/>
+      <img alt="R20 app"  class="h-48 w-full object-cover" src={R20}/>
     </div>
     <div class="p-8">
       <div class="uppercase tracking-wide text-lg text-indigo-500 font-semibold">R-20</div>
@@ -65,7 +64,7 @@ const Projects = () =>{
 <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out md:max-w-2xl">
   <div>
     <div>
-      <img class="h-48 w-full object-cover" src={Beyond}/>
+      <img alt="Beyond app" class="h-48 w-full object-cover" src={Beyond}/>
     </div>
     <div class="p-8">
       <div class="tracking-wide text-lg text-indigo-500 font-semibold">Beyond the Conversation</div>
@@ -77,7 +76,7 @@ const Projects = () =>{
 <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out md:max-w-2xl">
   <div>
     <div>
-      <img class="h-48 w-full object-cover" src={Dimsum}/>
+      <img alt="Dimsum app" class="h-48 w-full object-cover" src={Dimsum}/>
     </div>
     <div class="p-8">
       <div class="tracking-wide text-lg text-indigo-500 font-semibold">Self-Order App</div>

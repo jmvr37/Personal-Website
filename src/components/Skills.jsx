@@ -3,9 +3,7 @@ import Html from '../assets/images/HTML5_Badge.svg';
 import Css from '../assets/images/css.png';
 import Php from '../assets/images/php.svg';
 import Knex from '../assets/images/knex.png';
-import tablet from "../assets/lottie-animations/code-window.json";
 import lottie from "lottie-web";
-import desk from "../assets/lottie-animations/work-from-home-setup.json";
 import design from "../assets/lottie-animations/web-design.json";
 
 
