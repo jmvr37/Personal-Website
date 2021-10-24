@@ -8,9 +8,9 @@ import Linkedin from '../assets/images/icons8-linkedin-240.png';
 const Navigation = () =>{
     return (
       <>
-      <nav class="bg-white">
+      <nav class="bg-white" id="top">
       <div class="container flex flex-col items-center justify-around px-6 py-8 mx-auto text-gray-600 capitalize md:flex-row items-center justify-around px-6 py-8 mx-auto text-gray-600 capitalize">
-        <a href="#" class="text-gray-800 font-mono font-semibold border-b-2 border-blue-500  mx-1.5 sm:mx-6">Jose Valenzuela</a>
+        <a href="#profile" class="text-gray-800 font-mono font-semibold border-b-2 border-blue-500  mx-1.5 sm:mx-6">Jose Valenzuela</a>
 
         <a href="#skills" class="font-mono border-b-2 border-transparent hover:text-gray-800 hover:border-blue-500 mx-1.5 sm:mx-6">Skills</a>
 

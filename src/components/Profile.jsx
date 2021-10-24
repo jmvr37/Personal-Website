@@ -16,7 +16,7 @@ const Profile = () =>{
   
     return (
       <>
-  <section class="flex flex-wrap justify-center">
+  <section class="flex flex-wrap justify-center" id="profile">
   
   
   <div class="flex justify-center w-full md:w-3/4 px-4 text-center lg:w-3/4">
