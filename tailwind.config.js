@@ -4,7 +4,7 @@ module.exports = {
  
   purge: [
     '/public/*.html',
-    './src/components/*.{jsx,js}',
+    './src/components/**/*.{jsx,js}',
 ],
 
   theme: {
