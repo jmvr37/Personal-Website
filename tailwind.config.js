@@ -3,17 +3,12 @@ const colors = require('tailwindcss/colors')
 module.exports = {
  
   purge: [
+    '/public/**/*.html',
+    './src/components/**/*.{jsx,js}',
 ],
 
   theme: {
     extend: {
-      sky: colors.sky,
-      cyan: colors.cyan,
-      blue: {
-        450: '0FA5E9',
-        DEFAULT: '#1fb6ff',
-        dark: '#009eeb',
-      },
     },
     screens: {
       'sm': '640px',
