@@ -16,8 +16,8 @@ const Header = () =>{
     return(
 <>
 
-<section class="flex flex-col justify-center">
-  <div class="w-full h-auto content-end laptop: w-screen h-auto py-8 px-0 content-center desktop: w-screen h-full py-8 px-0 content-center"  id="digital">
+<section class="headerContainer">
+  <div class="animationHeader"  id="digital">
   
   </div>
 

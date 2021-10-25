@@ -16,20 +16,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+/* 
+Navigation styles */
 
 .navContainer{
-  display: flex ;
-  justify-content: space-between;
- 
-  
+  @apply container flex flex-col items-center justify-around px-6 py-8 mx-auto text-gray-600 capitalize md:flex-row items-center justify-around px-6 py-8 mx-auto text-gray-600 capitalize;
 }
 
-.card-flex{
-  display: flex ;
-  flex-direction: row;
+.navJose{
+  @apply text-gray-800 font-mono font-semibold border-b-2 border-blue-500  mx-1.5 sm:mx-6;
 }
 
+.navItem{
+  @apply font-mono border-b-2 border-transparent hover:text-gray-800 hover:border-blue-500 mx-1.5 sm:mx-6;
+}
+
+.containerSocial{
+  @apply flex flex-row items-center justify-end;
+}
+
+
+.linkedin{
+  @apply lg:w-7 h-7;
+}
+
+.github{
+  @apply w-6 h-5;
+}
+
+.mail{
+  @apply lg:w-6 h-6;
+}
+
+.phone{
+  @apply lg:w-5 h-5;
+}
+
+/* header styles */
+
+.headerContainer{
+  @apply flex flex-col justify-center;
+}
+
+.animationHeader{
+  @appy w-full h-auto content-end md:w-screen h-auto py-8 px-0 content-center lg:w-screen h-full py-8 px-0 content-center;
+}
+
+/* profile styles */
+
+.profileContainer{
+  @apply flex flex-wrap justify-center;
+}
+
+.profileCard{
+  @apply flex justify-center w-full md:w-3/4 px-4 text-center lg:w-3/4;
+}
+
+.bgCard{
+  @apply relative flex flex-col min-w-0 break-words bg-gradient-to-r from-green-400 to-blue-500 w-full mb-8 shadow-lg rounded-lg;
+}
+
+.cardFlex{
+  @apply flex-auto px-4 py-5;
+}
+
+.cardIcon{
+  @pply text-white p-3 text-center inline-flex items-center justify-center w-20 h-20 mb-5 shadow-lg rounded-full bg-lightBlue-400 animate-pulse;
+}
+
+.cardAnimation{
+  @apply lg:w-16 h-16;
+}
+
+.cardTitle{
+  @apply text-3xl font-mono;
+}
+
+.cardText{
+  @apply sm:text-sm mt-2 mb-4 font-light md:text-2xl mt-2 mb-4;
+}
 
 
 .banner{
