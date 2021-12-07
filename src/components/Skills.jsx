@@ -108,6 +108,9 @@ return(
       <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-white bg-blue-600 uppercase last:mr-0 mr-2 mt-2">
         expressjs
       </span>
+      <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-white bg-blue-600 uppercase last:mr-0 mr-2 mt-2">
+        Recharts
+      </span>
     </div>
    
   </div>
