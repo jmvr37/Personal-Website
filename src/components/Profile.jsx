@@ -24,7 +24,7 @@ const Profile = () =>{
                   <div class="cardIcon">
                   <img alt="..." src={Keyboard} class="cardAnimation"/>
                   </div>
-                  <h6 class="cardTitle">Hi, I'm Jose </h6>
+                  <h6 class="cardTitle">Hi, I'm Jose Test </h6>
                   <p class="cardText">
                   Since the beginning of my journey as a full stack developer 2 years ago, I've done over 10 projects using different technologies, such as Javascript, PHP, and ReactJS.
                   I have worked with talented people to develop digital products for a few non-profit organizations. A self-taught UI/UX designer with a natural curiosity,

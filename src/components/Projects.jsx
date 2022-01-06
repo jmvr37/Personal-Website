@@ -2,7 +2,7 @@ import React from 'react';
 import Larivo from '../assets/images/larivo.png';
 import Instanews from '../assets/images/instanews.jpeg';
 import Boomtown from '../assets/images/boomtown.png';
-import R20 from '../assets/images/R20.jpeg';
+// import R20 from '../assets/images/R20.jpeg';
 import Beyond from '../assets/images/beyond2.jpeg';
 import Dimsum from '../assets/images/dimsum-app.png';
 import Pollution from '../assets/images/pollution.png';
